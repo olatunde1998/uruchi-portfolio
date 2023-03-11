@@ -12,6 +12,19 @@ import Bootstrap from "../assets/bootstrap_logo.png";
 import Jira from "../assets/jira_logo.png";
 import MySql from "../assets/mysql_logo.png";
 import Docker from "../assets/docker_logo.png";
+import Multitrading from "../assets/multitrading.png";
+import Spring from "../assets/spring.png";
+import RestApi from "../assets/rest-api.png";
+import Servlet from "../assets/servlet.png";
+import Hibernate from "../assets/hibernate.png";
+
+
+
+
+
+
+
+
 
 
 
@@ -70,7 +83,7 @@ const Skills = () => {
             <p className="my-4">MONGO DB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Java} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={Java} alt="java icon" />
             <p className="my-4">JAVA</p>
           </div>
           
@@ -78,14 +91,35 @@ const Skills = () => {
             <img
               className="w-20 mx-auto"
               src={SpringBoot}
-              alt="HTML icon"
+              alt="springboot icon"
             />
             <p className="my-4">SPRING BOOT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Docker} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={Docker} alt="docker icon" />
             <p className="my-4">DOCKER</p>
           </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Multitrading} alt="Multitrading icon" />
+            <p className="my-4">MULTITRADING</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Spring} alt="spring icon" />
+            <p className="my-4">SPRING</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={RestApi} alt="rest API icon" />
+            <p className="my-4">REST API</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Servlet} alt="Servlet icon" />
+            <p className="my-4">SERVLET</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Hibernate} alt="Hibernate icon" />
+            <p className="my-4">HIBERNATE</p>
+          </div>
+        
         </div>
       </div>
     </div>
