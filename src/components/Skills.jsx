@@ -9,7 +9,7 @@ import Mongo from '../assets/mongo.png';
 import SpringBoot from "../assets/spring_boot.png";
 import Java from "../assets/java_logo.png";
 import Bootstrap from "../assets/bootstrap_logo.png";
-import Jira from "../assets/jira_logo.png";
+import Swagger from "../assets/swagger.png";
 import MySql from "../assets/mysql_logo.png";
 import Docker from "../assets/docker_logo.png";
 import Multitrading from "../assets/multitrading.png";
@@ -50,23 +50,23 @@ const Skills = () => {
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={CSS} alt="CSS icon" />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={JavaScript} alt="Javascript icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={ReactImg} alt="reactjs icon" />
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Jira} alt="HTML icon" />
-            <p className="my-4">JIRA</p>
+            <img className="w-20 mx-auto" src={Swagger} alt="swagger icon" />
+            <p className="my-4">Swagger</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={GitHub} alt="Github icon" />
             <p className="my-4">GITHUB</p>
           </div>
 
